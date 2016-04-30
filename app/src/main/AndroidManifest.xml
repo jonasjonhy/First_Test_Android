@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jonatas.provajosias" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.jonatas.prova.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.jonatas.prova.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name="com.example.jonatas.prova.ConfiguracoesActivity">
+        </activity>
+        <activity android:name="com.example.jonatas.prova.WebViewActivity" android:parentActivityName="com.example.jonatas.prova.Main2Activity">
+        </activity>
+        <activity android:name="com.example.jonatas.prova.PerfilActivity" android:parentActivityName="com.example.jonatas.prova.Main2Activity">
+        </activity>
+    </application>
+
+</manifest>

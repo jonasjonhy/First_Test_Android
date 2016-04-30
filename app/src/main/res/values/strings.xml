@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ProvaJosias</string>
+    <string name="login">Login...</string>
+    <string name="senha">Senha...</string>
+    <string name="salvar">Salvar?</string>
+    <string name="salvar1">Salvar</string>
+    <string name="entrar">Entrar</string>
+    <string name="nome">Jonatas Luis</string>
+    <string name="perfil">Perfil</string>
+    <string name="config">Configurações</string>
+    <string name="exibirEmail">Exibir Email?</string>
+    <string name="mostrarAmigos">Mostrar Amigos?</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
